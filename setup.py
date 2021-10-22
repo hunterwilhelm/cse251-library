@@ -8,6 +8,6 @@ setup(
     author='Brother Comeau and Hunter Wilhelm',
     license='none',
     packages=['cse251'],
-    install_requires=['matplotlib', 'numpy'],
+    install_requires=['matplotlib', 'numpy', 'pillow'],
     zip_safe=False
 )

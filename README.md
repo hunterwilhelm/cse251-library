@@ -31,3 +31,8 @@ Using pip has the following advantages:
 * more flexible running experience (working directory)
 * includes Intellisense instead of showing unknown function
 * able to be updated without modifying other repositories
+
+It pip installs:
+* matplotlib
+* numpy
+* pillow
