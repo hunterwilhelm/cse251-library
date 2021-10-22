@@ -16,8 +16,9 @@ Using pip has the following advantages:
 
 Run in the console
 ```bash
-python -m install https://github.com/yeskindofday/cse251-library.git
+python3 -m pip install git+https://github.com/yeskindofday/cse251-library.git
 ```
+(Use `python` or `python3` depending on your environment)
 
 And to use it
 

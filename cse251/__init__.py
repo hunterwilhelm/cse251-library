@@ -1,7 +1,7 @@
 """
 Course: CSE 251
 File: cse251.py
-Author: Brother Comeau
+Author: Brother Comeau and Hunter Wilhelm
 Purpose: Common classes for the CSE 251 course
 """
 
@@ -14,9 +14,9 @@ import numpy as np
 import json
 
 # ===============================================================================================
-def set_working_directory(folder_path):
-    """ Set the current working directory to the specified folder path"""
-    os.chdir(os.path.dirname(os.path.realpath(folder_path)))
+def set_working_directory(file_path):
+    """ Set the current working directory to the folder of the specified file path"""
+    os.chdir(os.path.dirname(os.path.realpath(file_path)))
 
 # ===============================================================================================
 def print_dict(dict, title=''):
