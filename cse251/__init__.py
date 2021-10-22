@@ -14,6 +14,11 @@ import numpy as np
 import json
 
 # ===============================================================================================
+def set_working_directory(folder_path):
+    """ Set the current working directory to the specified folder path"""
+    os.chdir(os.path.dirname(os.path.realpath(folder_path)))
+
+# ===============================================================================================
 def print_dict(dict, title=''):
     """ Display a dictionary in a structured format """
     if title != '':
