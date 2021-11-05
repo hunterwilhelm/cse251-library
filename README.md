@@ -5,7 +5,7 @@ The package that contains common classes for the CSE 251 course.
 
 Run in the console
 ```bash
-python3 -m pip install git+https://github.com/yeskindofday/cse251-library.git
+python3 -m pip install git+https://github.com/hunterwilhelm/cse251-library.git
 ```
 (Use `python` or `python3` depending on your environment)
 
@@ -18,7 +18,7 @@ set_working_directory(__file__)
 
 ## Authors
 * Brother Comeau
-* [Hunter Wilhelm](https://github.com/yeskindofday)
+* [Hunter Wilhelm](https://github.com/hunterwilhelm)
 
 ## Overview
 It provides:
