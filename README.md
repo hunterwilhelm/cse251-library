@@ -36,3 +36,4 @@ It pip installs:
 * matplotlib
 * numpy
 * pillow
+* opencv-python (`import cv2`)

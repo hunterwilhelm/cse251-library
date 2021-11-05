@@ -8,6 +8,6 @@ setup(
     author='Brother Comeau and Hunter Wilhelm',
     license='none',
     packages=['cse251'],
-    install_requires=['matplotlib', 'numpy', 'pillow'],
+    install_requires=['matplotlib', 'numpy', 'pillow', 'opencv-python'],
     zip_safe=False
 )
